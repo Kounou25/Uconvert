@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.btn-purple {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.upload-area {
+  border: 2px dashed #6f42c1;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.upload-area.dragging {
+  background-color: #f3e8fd;
+}
+
+.file-list {
+  text-align: left;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+footer div a {
+  margin: 0 0.5rem;
+}
+
+footer img {
+  width: 24px;
+  height: 24px;
+}
+
+.glyphicon {
+  margin-right: 5px;
+}
